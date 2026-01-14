@@ -159,6 +159,15 @@ gcloud run deploy cep-weather \
 
 ---
 
+### Cloud Run
+
+```
+### Production test
+
+GET https://go-lab-weather-by-location-7gyhoujojq-uc.a.run.app/weather?cep=01014000
+x-api-key: API_KEY
+```
+
 ## 🧪 Automated Tests
 
 The tests cover:
